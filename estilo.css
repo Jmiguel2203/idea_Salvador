@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  color: #550101;
+  font-family: "Oswald", sans-serif;
+}
+.contenedor {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:
+    "logo logo logo logo"
+    "nav nav nav nav"
+    "inicio inicio inicio inicio"
+    "productos productos productos productos"
+    "multimedia multimedia multimedia multimedia"
+    "nosotros nosotros nosotros nosotros"
+    "contacto contacto contacto contacto"
+    "footer footer footer footer";
+  gap: 10px;
+}
+
+.footer {
+  color: white;
+  background-color: #550101;
+  text-align: center;
+  height: 150px;
+  border-radius: 3px;
+}
+.logo {
+  width: 200px;
+  height: 75px;
+  padding: 5px;
+  border: 10px;
+  background-color: white;
+  grid-area: logo;
+}
+
+nav {
+  display: flexbox;
+  justify-content: end;
+  grid-area: nav;
+}
+nav ul a {
+  text-decoration: none;
+}
+nav ul a:hover {
+  background-color: whitesmoke;
+  color: #550101;
+  font-weight: bold;
+}
+
+.flecha {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  opacity: 50%;
+  z-index: 5;
+}
+.flecha:hover {
+  opacity: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.inicio,
+.productos,
+.multimedia,
+.nosotros,
+.contacto {
+  background-color: #f8eded;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.inicio {
+  height: 100%;
+  grid-area: inicio;
+}
+.productos {
+  grid-area: productos;
+}
+
+.imagen6,
+.imagen7,
+.imagen8,
+.imagen9,
+.imagen10,
+.imagen11,
+.imagen12,
+.imagen13,
+.imagen14 {
+  margin: 5px auto;
+  padding: 0.2rem;
+  opacity: 80%;
+}
+.imagen6:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen7:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen8:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen9:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen10:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen11:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen12:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen13:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+.imagen14:hover {
+  opacity: 100%;
+  transition: all 2s ease;
+  transform: scale(1.5, 1.5);
+}
+
+.multimedia {
+  grid-area: multimedia;
+}
+.nosotros {
+  grid-area: nosotros;
+}
+.contacto {
+  grid-area: contacto;
+}
+.footer {
+  grid-area: footer;
+}

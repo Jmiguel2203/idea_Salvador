@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: #550101;
+    font-family: "Oswald", sans-serif;
+}
+.flecha {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    opacity: 50%;
+    z-index: 5;
+    &:hover{
+        opacity: 100%;
+    }
+}
+.footer {
+    color: white;
+    background-color: #550101;
+    text-align: center;
+    height: 150px;
+    border-radius: 3px;
+}
+
+main{
+    margin:1rem;
+    .mision{
+        padding: 1rem;
+        margin:1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: 
+        "titulo1 titulo1"
+        "texto1 imagenmision";
+        .titulo1{
+            text-decoration: underline;
+            grid-area: titulo1;
+            text-align: start;
+            margin: 2rem;
+        }
+        .texto1{
+            line-height: 2;
+            grid-area: texto1;
+        }
+        .imagenmision{
+            grid-area: imagenmision;
+            object-fit: cover;
+            width: 50%;
+        }
+    }
+    .vision{
+        padding: 1rem;
+        margin:1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: 
+        "titulo2 titulo2"
+        "texto2 imagenvision";
+        .titulo2{
+            text-decoration: underline;
+            grid-area: titulo2;
+            text-align: start;
+            margin: 2rem;
+        }
+        .texto2{
+            line-height: 2;
+            grid-area: texto2;
+        }
+        .imagenvision{
+            grid-area: imagenvision;
+            object-fit: cover;
+            width: 50%;
+        }
+    }
+    .valores{
+        padding: 1rem;
+        margin:1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: 
+        "titulo3 titulo3"
+        "texto3 imagenvalores";
+        .titulo3{
+            text-decoration: underline;
+            grid-area: titulo3;
+            text-align: start;
+            margin: 2rem;
+        }
+        .texto3{
+            line-height: 2;
+            grid-area: texto3;
+        }
+        .imagenvalores{
+            grid-area: imagenvalores;
+            object-fit: cover;
+            width: 50%;
+        }
+    }
+}

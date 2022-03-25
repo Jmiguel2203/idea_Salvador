@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #550101;
+  font-family: "Oswald", sans-serif;
+}
+
+.flecha {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  opacity: 50%;
+  z-index: 5;
+}
+
+.flecha:hover {
+  opacity: 100%;
+}
+
+.footer {
+  color: white;
+  background-color: #550101;
+  text-align: center;
+  height: 150px;
+  border-radius: 3px;
+}
+
+main {
+  margin: 1rem;
+}
+
+main .mision {
+  padding: 1rem;
+  margin: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
+      grid-template-areas: "titulo1 titulo1" "texto1 imagenmision";
+}
+
+main .mision .titulo1 {
+  text-decoration: underline;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: titulo1;
+  text-align: start;
+  margin: 2rem;
+}
+
+main .mision .texto1 {
+  line-height: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: texto1;
+}
+
+main .mision .imagenmision {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: imagenmision;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50%;
+}
+
+main .vision {
+  padding: 1rem;
+  margin: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
+      grid-template-areas: "titulo2 titulo2" "texto2 imagenvision";
+}
+
+main .vision .titulo2 {
+  text-decoration: underline;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: titulo2;
+  text-align: start;
+  margin: 2rem;
+}
+
+main .vision .texto2 {
+  line-height: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: texto2;
+}
+
+main .vision .imagenvision {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: imagenvision;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50%;
+}
+
+main .valores {
+  padding: 1rem;
+  margin: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
+      grid-template-areas: "titulo3 titulo3" "texto3 imagenvalores";
+}
+
+main .valores .titulo3 {
+  text-decoration: underline;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: titulo3;
+  text-align: start;
+  margin: 2rem;
+}
+
+main .valores .texto3 {
+  line-height: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: texto3;
+}
+
+main .valores .imagenvalores {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: imagenvalores;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50%;
+}
+/*# sourceMappingURL=estilonosotros.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "idea_salvador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": 
+    "node-sass --include-path scss scss/estilonosotros.scss css/estilonosotros.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmiguel2203/idea_Salvador.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jmiguel2203/idea_Salvador/issues"
+  },
+  "homepage": "https://github.com/Jmiguel2203/idea_Salvador#readme"
+}

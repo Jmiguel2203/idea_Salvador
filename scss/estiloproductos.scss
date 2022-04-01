@@ -1,0 +1,55 @@
+$bgcaja1:#a80303;
+$bgcaja2: white;
+$bordo:#550101;
+$text:white;
+
+@mixin cajas($bgcaja) {
+    background-color: $bgcaja;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    h3{
+        color: $text
+    }
+    p{
+        color: $text;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: #550101;
+    font-family: "Oswald", sans-serif;
+}
+.flecha {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    opacity: 50%;
+    z-index: 5;
+    &:hover{
+        opacity: 100%;
+    }
+}
+.footer {
+    color: white;
+    background-color: #550101;
+    text-align: center;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.productos{
+    @include cajas($bgcaja1)
+}
+.servicios{
+    @include cajas($bgcaja1)
+}
+.asesoria{
+    @include cajas($bgcaja1)
+}

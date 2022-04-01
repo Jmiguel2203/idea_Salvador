@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #550101;
+  font-family: "Oswald", sans-serif;
+}
+
+.flecha {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  opacity: 50%;
+  z-index: 5;
+}
+
+.flecha:hover {
+  opacity: 100%;
+}
+
+.footer {
+  color: white;
+  background-color: #550101;
+  text-align: center;
+  height: 150px;
+  border-radius: 3px;
+}
+
+.productos {
+  background-color: #a80303;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.productos h3 {
+  color: white;
+}
+
+.productos p {
+  color: white;
+}
+
+.servicios {
+  background-color: #a80303;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.servicios h3 {
+  color: white;
+}
+
+.servicios p {
+  color: white;
+}
+
+.asesoria {
+  background-color: #a80303;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.asesoria h3 {
+  color: white;
+}
+
+.asesoria p {
+  color: white;
+}
+/*# sourceMappingURL=estiloproductos.css.map */

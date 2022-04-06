@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
+  width: 90%;
+  margin: 20px auto;
   background-color: white;
   color: #550101;
   font-family: "Oswald", sans-serif;
@@ -41,12 +43,10 @@ main .mision {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr auto;
-  grid-template-rows: 1fr auto;
-  grid-template-areas:
-    "titulo1 titulo1"
-    "texto1 imagenmision";
+      grid-template-rows: 1fr auto;
+      grid-template-areas: "titulo1 titulo1" "texto1 imagenmision";
 }
 
 main .mision .titulo1 {
@@ -71,7 +71,7 @@ main .mision .imagenmision {
   -ms-grid-column: 2;
   grid-area: imagenmision;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 50%;
 }
 
@@ -81,12 +81,10 @@ main .vision {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr auto;
-  grid-template-rows: 1fr auto;
-  grid-template-areas:
-    "titulo2 titulo2"
-    "texto2 imagenvision";
+      grid-template-rows: 1fr auto;
+      grid-template-areas: "titulo2 titulo2" "texto2 imagenvision";
 }
 
 main .vision .titulo2 {
@@ -111,7 +109,7 @@ main .vision .imagenvision {
   -ms-grid-column: 2;
   grid-area: imagenvision;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 50%;
 }
 
@@ -121,12 +119,10 @@ main .valores {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr auto;
-  grid-template-rows: 1fr auto;
-  grid-template-areas:
-    "titulo3 titulo3"
-    "texto3 imagenvalores";
+      grid-template-rows: 1fr auto;
+      grid-template-areas: "titulo3 titulo3" "texto3 imagenvalores";
 }
 
 main .valores .titulo3 {
@@ -151,7 +147,7 @@ main .valores .imagenvalores {
   -ms-grid-column: 2;
   grid-area: imagenvalores;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 50%;
 }
 /*# sourceMappingURL=estilonosotros.css.map */

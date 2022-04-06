@@ -26,13 +26,6 @@ body {
   gap: 10px;
 }
 
-.footer {
-  color: white;
-  background-color: #550101;
-  text-align: center;
-  height: 150px;
-  border-radius: 3px;
-}
 .logo {
   width: 200px;
   height: 75px;
@@ -44,7 +37,7 @@ body {
 
 nav {
   display: flexbox;
-  justify-content: end;
+  justify-content: space-between;
   grid-area: nav;
 }
 nav ul a {
@@ -77,8 +70,7 @@ h3 {
 .inicio,
 .productos,
 .multimedia,
-.nosotros,
-.contacto {
+.nosotros {
   background-color: #f8eded;
   border-radius: 5px;
   padding: 1rem;
@@ -89,65 +81,18 @@ h3 {
 }
 .productos {
   grid-area: productos;
+  display: flex;
+  flex-direction: row;
 }
 
-.imagen6,
-.imagen7,
-.imagen8,
-.imagen9,
-.imagen10,
-.imagen11,
-.imagen12,
-.imagen13,
-.imagen14 {
-  margin: 5px auto;
-  padding: 0.2rem;
-  opacity: 80%;
+.card {
+  margin: 50px;
+  opacity: 75%;
 }
-.imagen6:hover {
+.card:hover {
   opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen7:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen8:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen9:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen10:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen11:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen12:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen13:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
-}
-.imagen14:hover {
-  opacity: 100%;
-  transition: all 2s ease;
-  transform: scale(1.5, 1.5);
+  transition: all 3s ease;
+  transform: scale(1.25, 1.25);
 }
 
 .multimedia {
@@ -160,5 +105,20 @@ h3 {
   grid-area: contacto;
 }
 .footer {
+  color: white;
+  background-color: #550101;
+  text-align: center;
+  height: 150px;
+  border-radius: 3px;
   grid-area: footer;
+}
+
+.redes {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }

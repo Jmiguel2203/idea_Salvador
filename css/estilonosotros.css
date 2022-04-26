@@ -46,7 +46,7 @@ main .mision {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr auto;
       grid-template-rows: 1fr auto;
-      grid-template-areas: "titulo1 titulo1" "texto1 imagenmision";
+      grid-template-areas: "titulo1 titulo1" "texto1 imagenmision";
 }
 
 main .mision .titulo1 {
@@ -84,7 +84,7 @@ main .vision {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr auto;
       grid-template-rows: 1fr auto;
-      grid-template-areas: "titulo2 titulo2" "texto2 imagenvision";
+      grid-template-areas: "titulo2 titulo2" "texto2 imagenvision";
 }
 
 main .vision .titulo2 {
@@ -122,7 +122,7 @@ main .valores {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr auto;
       grid-template-rows: 1fr auto;
-      grid-template-areas: "titulo3 titulo3" "texto3 imagenvalores";
+      grid-template-areas: "titulo3 titulo3" "texto3 imagenvalores";
 }
 
 main .valores .titulo3 {
